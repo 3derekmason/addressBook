@@ -44,6 +44,22 @@ body {
   color: #fff;
 }
 
+.form {
+  width: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  flex-direction: column;
+}
+.form .form-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
 .formSubmit {
   width: 240px;
   border-radius: 8px;

@@ -10,44 +10,44 @@
       </ul>
     </div>
   <% end %>
+  <div class="container form">
+    <div class="form-row">
+      <%= form.label :first_name, style: "display: block" %>
+      <%= form.text_field :first_name %>
+    </div>
 
-  <div>
-    <%= form.label :first_name, style: "display: block" %>
-    <%= form.text_field :first_name %>
-  </div>
+    <div class="form-row">
+      <%= form.label :last_name, style: "display: block" %>
+      <%= form.text_field :last_name %>
+    </div>
 
-  <div>
-    <%= form.label :last_name, style: "display: block" %>
-    <%= form.text_field :last_name %>
-  </div>
+    <div class="form-row">
+      <%= form.label :email, style: "display: block" %>
+      <%= form.text_field :email %>
+    </div>
 
-  <div>
-    <%= form.label :email, style: "display: block" %>
-    <%= form.text_field :email %>
-  </div>
+    <div class="form-row">
+      <%= form.label :phone, style: "display: block" %>
+      <%= form.text_field :phone %>
+    </div>
 
-  <div>
-    <%= form.label :phone, style: "display: block" %>
-    <%= form.text_field :phone %>
-  </div>
+    <div class="form-row">
+      <%= form.label :address, style: "display: block" %>
+      <%= form.text_field :address %>
+    </div>
 
-  <div>
-    <%= form.label :address, style: "display: block" %>
-    <%= form.text_field :address %>
-  </div>
+    <div class="form-row">
+      <%= form.label :birthday, style: "display: block" %>
+      <%= form.date_field :birthday %>
+    </div>
 
-  <div >
-    <%= form.label :birthday, style: "display: block" %>
-    <%= form.date_field :birthday %>
-  </div>
+    <div class="form-row">
+      <%= form.label :twitter, style: "display: block" %>
+      <%= form.text_field :twitter %>
+    </div>
 
-  <div>
-    <%= form.label :twitter, style: "display: block" %>
-    <%= form.text_field :twitter %>
-  </div>
-
-  <div class="formSubmit">
-  <%= form.submit class:"formSubmit"%>
-
+    <div class="formSubmit">
+    <%= form.submit class:"formSubmit"%>
+    </div>
   </div>
 <% end %>
