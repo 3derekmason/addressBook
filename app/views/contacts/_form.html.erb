@@ -36,7 +36,7 @@
     <%= form.text_field :address %>
   </div>
 
-  <div>
+  <div >
     <%= form.label :birthday, style: "display: block" %>
     <%= form.date_field :birthday %>
   </div>
@@ -46,7 +46,8 @@
     <%= form.text_field :twitter %>
   </div>
 
-  <div>
-    <%= form.submit %>
+  <div class="formSubmit">
+  <%= form.submit class:"formSubmit"%>
+
   </div>
 <% end %>

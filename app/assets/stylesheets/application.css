@@ -43,3 +43,15 @@ body {
 .show-contact a:hover {
   color: #fff;
 }
+
+.formSubmit {
+  width: 240px;
+  border-radius: 8px;
+  color: #2196f3;
+  border: none;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.formSubmit:hover {
+  color: #fff;
+  background: #2196f3;
+}
