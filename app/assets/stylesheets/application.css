@@ -14,14 +14,18 @@ body {
 }
 #contacts .contact {
   width: 320px;
-  height: 220px;
+  height: 180px;
 }
 #contacts .card-body {
   overflow: scroll;
 }
 
 .contact .show-contact a {
-  color: #fff;
+  color: #efefef;
   text-decoration: none;
   letter-spacing: 2px;
+}
+
+.show-contact a:hover {
+  color: #fff;
 }
