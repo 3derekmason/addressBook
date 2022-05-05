@@ -45,14 +45,15 @@ body {
 }
 
 .form {
-  width: 480px;
+  width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 32px;
+  gap: 24px;
   flex-direction: column;
 }
 .form .form-row {
+  font-family: "Roboto Condensed", sans-serif;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -60,14 +61,19 @@ body {
   gap: 16px;
 }
 
+.form-row .form-field {
+  width: 200px;
+}
+
 .formSubmit {
   width: 240px;
   border-radius: 8px;
+  background: #2196f325;
   color: #2196f3;
   border: none;
   font-family: "Roboto Condensed", sans-serif;
 }
 .formSubmit:hover {
   color: #fff;
-  background: #2196f3;
+  background: #2196f375;
 }
