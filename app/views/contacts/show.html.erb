@@ -1,8 +1,13 @@
+<div class="container-sm">
 <p style="color: green"><%= notice %></p>
+<div class="card contact-view">
+  <div class="card-body">
+    <%= render @contact %>
 
-<%= render @contact %>
-
-<div>
-  <%= link_to "Edit this contact", edit_contact_path(@contact) %> |
-  <%= link_to "Delete this contact", @contact, method: :delete %>
+    <div>
+      <%= link_to "Edit this contact", edit_contact_path(@contact) %> |
+      <%= link_to "Delete this contact", @contact, method: :delete %>
+    </div>
+  </div>
+</div>
 </div>
