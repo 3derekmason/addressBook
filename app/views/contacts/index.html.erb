@@ -1,3 +1,4 @@
+
 <p style="color: green"><%= notice %></p>
 
 <h1>Contacts</h1>
@@ -9,11 +10,9 @@
         <div class="card-body">
           <%= render contact %>
         </div>
-        <p>
+        <button type="button" class="btn btn-info">
           <%= link_to "Show this contact", contact %>
-        </p>
+        </button>
       </div>
   <% end %>
 </div>
-
-<%= link_to "New contact", new_contact_path %>

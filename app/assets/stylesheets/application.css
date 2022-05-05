@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+#contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
