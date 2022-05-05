@@ -7,5 +7,15 @@
   gap: 32px;
 }
 #contacts .contact {
-  width: 400px;
+  width: 320px;
+  height: 220px;
+}
+#contacts .card-body {
+  overflow: scroll;
+}
+
+.contact .show-contact a {
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 2px;
 }
