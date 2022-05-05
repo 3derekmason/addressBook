@@ -8,6 +8,9 @@ body {
   color: #fff;
   font-family: "Raleway";
 }
+a {
+  text-decoration: none;
+}
 
 /* Contacts Index Page */
 #contacts {
