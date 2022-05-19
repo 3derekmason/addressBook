@@ -27,6 +27,9 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+## gitHubs request -
+gem "nokogiri", ">= 1.13.5"
+
 # rswag
 # gem "rswag"
 
