@@ -1,24 +1,29 @@
-# README
+# Address Book _w/ Rails_
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Overview
 
-Things you may want to cover:
+##### Ruby version 3.0
 
-* Ruby version
+A simple address book for storing contacts.
 
-* System dependencies
+---
 
-* Configuration
+Add new contacts, updated existing fields, remove contacts... All the things you'd need to keep track of the people in your life!
 
-* Database creation
+- Your contacts will be shown by default:
 
-* Database initialization
+  ![](./app/assets/images/contacts.png)
 
-* How to run the test suite
+- View any contact (or scroll down on each card) to see more info
 
-* Services (job queues, cache servers, search engines, etc.)
+  ![](./app/assets/images/contact.png)
 
-* Deployment instructions
+---
 
-* ...
+### Coming soon...
+
+- User features and authorization (you dont want anyone to have access to your contacts...)
+
+- Obviously a lot more spiffing up the UI!
+
+- Deployment
